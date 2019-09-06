@@ -38,6 +38,10 @@ module.exports = [
         file: 'dist/yup.esm.js',
         format: 'es',
       },
+      {
+        file: 'dist/yup.amd.js',
+        format: 'amd',
+      },
     ],
     plugins: [...base.plugins, filesize()],
   },
